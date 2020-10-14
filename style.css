@@ -1,0 +1,1206 @@
+/*   
+Theme Name: matador
+*/
+
+	
+html { box-sizing: border-box; }
+
+*, *::before, *::after { box-sizing: inherit; }
+
+body
+	{
+	background-color: white;
+	}
+
+@font-face 
+	{
+	font-family: PF DinDisplay Pro; /* Имя шрифта */
+	src: url(fonts/PFDinDisplayPro-Regular.ttf); /* Путь к файлу со шрифтом */
+	}
+
+/* HEADER */
+.black_line
+	{
+	width: 100%;
+	height: 38px;
+	background-color: #121212;
+
+	}
+.black_line_cont
+	{
+	width: 1140px;
+	height: 38px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	}
+
+
+.login_buttons
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto 0;
+	}
+.login_one_button
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-right: 12px;
+	
+	cursor: pointer;
+	user-select: none;
+	}
+.social_buttons
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto 0;
+	}
+.social_text
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-right: 12px;
+	
+	user-select: none;
+	}
+.one_social_button
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #FFFFFF;
+	margin-right: 12px;
+	
+	cursor: pointer;
+	user-select: none;
+	}
+
+/* --- */
+.logo_block
+	{
+	width: 100%;
+	height: 120px;
+	background-color: #f5f5f5;
+	}
+.logo_block_cont
+	{
+	width: 1140px;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	}
+.logo_img
+	{
+	margin: auto 0;
+	}
+.logo_banner
+	{
+	margin: auto 0;
+	}
+
+/* --- */
+.main_nav
+	{
+	width: 100%;
+	height: 44px;
+
+	background-color: #e5e5e5;
+	}
+.main_nav_cont
+	{
+	width: 1140px;
+	height: 44px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	}
+
+.main_nav_buttons
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto 0;
+	}
+.main_nav_one_button
+	{
+	text-transform: uppercase;
+	
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	color: #212121;
+	margin-right: 17px;
+	
+	cursor: pointer;
+	user-select: none;
+	}
+.main_nav_adds
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: auto 0;
+	}
+
+.main_nav_one_add
+	{
+	margin-left: 10px;
+	}
+/* --- */
+.main_text
+	{
+	width: 100%;
+	height: 220px;
+
+	background-color: #121212;
+	}
+.main_text_cont
+	{
+	width: 1140px;
+	height: 220px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	margin: 0 auto;
+	}
+
+.main_text_header
+	{
+	/* Бонусы и акции букмекерских контор */
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	text-align: center;
+
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	}
+.main_text_content
+	{
+	/* На этой странице представлены лучшие букмекерские конторы в интернете. Это надежные операторы индустрии ставок на спорт. Богатый выбор событий, высокие лимиты ставок, приветливая и оперативная служба поддержки подарят вам безупречный опыт игры. Прежде чем включить эти компании в список рекомендуемых букмекерских контор, мы заключили с каждой из них соглашение о том, что в целях защиты прав игроков мы имеем право выступать в качестве посредника в спорах между ними и игроками в случаях урегулирования конфликтов. О том как выбрать БК читайте ниже. */
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #DFE4E6;
+	}
+
+/* --- */
+.sub_nav
+	{
+	width: 100%;
+	height: 65px;
+
+	background-color: #e5e5e5;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 30px;
+	}
+.sub_nav_button
+	{
+	/* # Европейский букмекер */
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.08em;
+	text-align: center;
+
+	color: #3F4143;
+	margin: auto 6px;
+	padding: 5px 15px;
+
+	background: #E3E4E5;
+	border: 1px solid #B2B7BA;
+	box-sizing: border-box;
+	border-radius: 5px;
+	cursor: pointer;
+	user-select: none;
+	}
+
+.sub_nav_button:active, .sub_nav_button2
+	{
+	opacity: 0.5;
+
+	background: #E3E4E5;
+	border: 1px solid #B2B7BA;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	
+	text-align: center;
+
+	color: #3F4143;
+	}
+
+.overflow_points
+	{
+	display: none;
+	}
+/* HEADER END */
+
+/* MAIN */
+.wrapper
+	{
+	width: 1140px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	}
+
+.all_bookmakers_list
+	{
+	width: 730px;
+	}
+
+.sidebar
+	{
+	width: 360px;
+	}
+
+.best_bookmakers_list
+	{
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding: 10px;
+	}
+
+.best_bookmakers_header
+	{
+	width: 180px;
+	background: #121212;
+	padding: 10px 21px;
+
+	text-transform: uppercase;
+	
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.09em;
+	color: white;
+	margin-right: 17px;
+	
+	justify-content: center;
+	}
+
+.title_string
+	{
+	line-height: 1.4em;
+	}
+
+.best_bookmakers_content
+	{
+	border-top: 1px solid black;
+	background: #fafafa;
+	padding: 10px;
+	}
+
+.best_bookmakers_one
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin-bottom: 20px;
+	}
+
+.show_more
+	{
+	border-top: 1px solid #E0E0E0;
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+
+	justify-content: center;
+	color: #242526;
+	margin-bottom: 0;
+	padding: 15px;
+	}
+
+.best_bookmakers_one_content
+	{
+	margin-left: 15px;
+	
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
+.best_bookmakers_one_row_info
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+.best_bookmakers_name
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+
+	color: #242526;
+	margin-bottom: 5px;
+	}
+
+.one_comment
+	{
+	padding: 10px;
+	background: #ffffff;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 20px;
+	}
+
+.best_bookmakers_comment
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 15px;
+
+	color: #9A9D9F;	
+	}
+
+.comment_header
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 10px;
+	}
+
+.comment_data
+	{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	}
+
+.comment_from
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height, or 129% */
+
+	color: #999999;
+	}
+
+.bookmakers_comment_name
+	{
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #242526;
+	}
+
+.best_bookmakers_one_row_button
+	{
+	background: #2F8F41;
+	border: 1px solid #2F8F41;
+	box-sizing: border-box;
+	border-radius: 3px;
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.09em;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+	padding: 5px 0px;
+	}
+
+.comments
+	{
+	width: 100%;
+	}
+
+/* MAIN END*/
+
+.one_bookmaker
+	{
+	width: 730px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 30px;
+	}
+
+.post_big_image
+	{
+	width: 230px;
+	background-color: #060809;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	}
+
+.medals
+	{
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 3px;
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing: 0.08em;
+	text-align: center;
+
+	color: #FFFFFF;
+	
+	margin: 5px 10px;
+	}
+
+.info_zone
+	{
+	display: flex;
+	flex-direction: row;
+	}
+
+.post_info
+	{
+	width: 100%;
+	display: flex;
+	flex-direction: column;	
+	justify-content: space-between;
+	}
+
+.post_title
+	{
+	width: 100%;
+
+	background-color: #FAFAFA;
+	border-bottom: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	}
+
+.title_hello
+	{
+	width: 135px;
+	padding: 0px 5px;
+	margin-bottom: 10px;
+	background: #4CAF50;
+	border-radius: 3px;
+
+	font-family: PF DinDisplay Pro;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.05em;
+	text-align: center;
+
+	color: #FFFFFF;
+	}
+
+.post_info_details
+	{
+	width: 100%;
+	padding: 10px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
+.main_info_coll
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	}
+
+.main_info_subinfo_title
+	{
+	font-family: PF DinDisplay Pro;
+	font-size: 14px;
+	line-height: 25px;
+	/* or 179% */
+
+	color: #242526;
+	}
+
+.main_info_subinfo_value
+	{
+	font-family: PF DinDisplay Pro;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 25px;
+	/* or 179% */
+
+	color: #242526;
+	}
+
+.main_info
+	{
+	width: 100%;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+
+.post_buttons
+	{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+
+.post_button_name
+	{
+	width: 150px;
+	padding: 5px;
+	background: #1E88E5;
+	border: 1px solid #1E88E5;
+	box-sizing: border-box;
+	border-radius: 3px;
+
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.07em;
+	text-align: center;
+
+	color: #FFFFFF;
+	}
+.post_button_bonus
+	{
+	width: 150px;
+	padding: 5px;
+	background: #FFFFFF;
+	border: 1px solid #1E88E5;
+	box-sizing: border-box;
+	border-radius: 3px;
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.07em;
+	text-align: center;
+	}
+.post_button_get
+	{
+	width: 150px;
+	padding: 5px;
+	background: #F83030;
+	border: 1px solid #F83030;
+	box-sizing: border-box;
+	border-radius: 3px;
+
+	font-family: PF DinDisplay Pro;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+	letter-spacing: 0.07em;
+	text-align: center;
+
+	color: #FFFFFF;
+	}
+
+.comment_zone
+	{
+	padding: 10px;
+	border-top: 1px solid #e0e0e0;
+	background-color: #fafafa;
+	
+	
+	}
+
+.comment_text
+	{
+	font-family: PF DinDisplay Pro;
+	font-size: 16px;
+	line-height: 30px;
+
+	border-bottom: 1px dashed black;
+	margin-left: 5px;
+	}
+
+.comment_link
+	{
+	display: block;
+	
+	font-family: PF DinDisplay Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 24px;
+
+	color: #242526;
+	}
+.comment_link a
+	{
+	color: #1e88e5;
+	}
+
+.hidden_comments ol
+	{
+	margin-left: 20px;
+	list-style-type: decimal;
+	line-height: 1.8;
+	}
+
+.picto
+	{
+	height: 14px;
+	margin-right: 5px;
+	}
+
+.all_btn
+	{
+	cursor: pointer;
+	user-select: none;
+	}
+
+.small_img, .small_device
+	{
+	display: none;
+	}
+
+@media screen and (max-width: 1024px)/* ipad */
+	{
+	.black_line, header
+		{
+		width: 100%;
+		}
+	
+	.black_line_cont
+		{
+		width: 730px;
+		}
+
+	.logo_block
+		{
+		height: 190px;
+		}
+
+	.logo_block_cont
+		{
+			padding-top: 20px;
+		width: 730px;
+		height: 190px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		}
+
+	.main_nav_cont
+		{
+		width: 100%;
+		padding: 10px;
+		}
+
+	.main_text_cont
+		{
+		width: 730px;
+		height: 270px;
+		}
+
+	.wrapper
+		{
+		width: 730px;
+		}
+
+	.main_nav
+		{
+		justify-content: space-around;
+		margin: 0 auto;
+		}
+	
+	.main_text
+		{
+		width: 100%;
+		height: 270px;
+		text-overflow: ellipsis;
+		}
+	
+	.main_text_content
+		{
+		width: 730px;
+		margin: 0 auto;
+		padding: 0 5px;
+		}
+	
+	.sub_nav
+		{
+		height: 45px;
+		}
+
+	.sub_nav_button
+		{
+		height: 45px;
+		font-size: 14px;
+		padding: 0;
+		margin: 0px;
+		border-radius: 0;
+		flex:1 1 auto;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+
+	.sub_nav_button2, .sub_nav_button:active
+		{
+		font-size: 14px;
+		}
+	
+	.sidebar
+		{
+		width: 730px;
+		padding: 0px;
+		}
+
+	.best_bookmakers_list
+		{
+		width: 100%;
+		margin-bottom: 30px;
+		padding: 0px;
+		}
+	
+	.wrapper
+		{
+		flex-direction: column;
+		}
+	.g_app
+		{
+		display: none;
+		}
+	}
+
+
+@media screen and (max-width: 414px)/* iphone */
+	{
+	.main_text_cont
+		{
+		width: 414px;
+		height: 260px;
+		}
+
+	.wrapper
+		{
+		width: 414px;
+		}
+
+	.main_nav
+		{
+		justify-content: space-around;
+		margin: 0 auto;
+		}
+	
+	.main_text
+		{
+		width: 100%;
+		height: 260px;
+		}
+
+	.main_text_header
+		{
+		font-size: 32px;
+		line-height: 26px;
+		letter-spacing: 0.05em;
+		text-align: center;
+
+		color: #FFFFFF;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		}
+
+	.main_text_content
+		{
+		position: relative;
+		width: 414px;
+		height: 168px;
+
+		overflow: hidden;
+		margin: 0 auto;
+		padding: 0 5px;
+		text-overflow: ellipsis;
+		}
+
+	.overflow_points
+		{
+		display: block;
+		position: absolute;
+		width: 414px;
+		height: 60px;
+		left: 1px;
+		bottom: 0px;
+
+		background: linear-gradient(180deg, rgba(5, 7, 8, 0.319421) 0%, rgba(6, 8, 9, 0.24) 0.01%, #060809 70.31%, #000000 99.92%, #060809 99.93%, rgba(204, 204, 204, 0.686417) 99.94%, rgba(177, 177, 177, 0.729419) 99.95%, #060809 99.96%, rgba(0, 0, 0, 0.533801) 99.97%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
+
+	.sub_nav
+		{
+		position: relative;
+		height: 45px;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		overflow-x: scroll;
+		margin: 0;
+		}
+
+	.sub_nav_button
+		{
+		padding: 0px 13px;
+		height: 45px;
+		font-size: 14px;
+		margin: 0px;
+		border-radius: 0;
+		flex:1 1 auto;
+		word-wrap: normal;
+		}
+	
+	.sub_nav_button2, .sub_nav_button:active
+		{
+		font-size: 14px;
+		}
+	
+	header
+		{
+		position: relative;
+		width: 414px;
+		}
+	
+	.sub_nav_gradient
+		{
+	/* Rectangle 5 */
+
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		right: 0;
+		bottom: 0px;
+
+		background: linear-gradient(180deg, #B2B7BA 0%, rgba(196, 196, 196, 0) 100%);
+		transform: rotate(90deg);
+		z-index: 100;
+		pointer-events: none;
+		}
+	
+	.gradient_left
+		{
+		position: absolute;
+		left: 0;
+		bottom: 0px;
+		
+		transform: rotate(270deg);
+		}
+	
+	.one_bookmaker
+		{
+		width: 390px;
+		margin: 12px;
+		}
+	
+	.small_img
+		{
+		display: block;
+		width: 100px;
+		margin-right: 10px;
+		}
+	
+	.post_info
+		{
+		padding: 10px;
+		}
+	
+	.post_title
+		{
+		padding: 20px;
+		}
+	
+	.title_text
+		{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		}
+	
+	.title_string
+		{
+		font-weight: bold;
+		text-align: center;
+		line-height: 1.3em;
+		}
+	
+	.title_hello
+		{
+		background: #1e88e5;
+		}
+	
+	.main_info
+		{
+		flex-direction: column;
+		}
+	
+	.main_info_coll
+		{
+		margin: 5px 0;
+		}
+	
+	.coll1
+		{
+		flex-direction: row;
+		}
+	
+	.coll2
+		{
+		flex-direction: row-reverse;
+		}
+	
+	.main_info_subinfo
+		{
+		flex: 1;
+		}
+	
+	.post_button_get
+		{
+		width: 100%;
+		padding: 8px;
+		}
+	
+	.hidden_comments
+		{
+		margin-top: 13px;
+		font-size: 14px;
+		}
+	
+	.sidebar
+		{
+		width: 414px;
+		padding: 0px;
+		}
+	
+	.best_bookmakers_list
+		{
+		width: 390px;
+		margin: 0 12px;
+		
+		margin-bottom: 30px;
+		}
+	
+	.black_line, .logo_block, .main_nav, .post_button_name, .post_button_bonus, .actual, .bonus_code, .post_big_image
+		{
+		display: none;
+		}
+	
+	.all_bookmakers_list
+		{
+		width: 414px;
+		}
+	
+	.small_device
+		{
+		position: relative;
+		height: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		}
+	
+	.small_device_logo
+		{
+		margin-left: 20px;
+		}
+	
+	.small_device_buttons
+		{
+		display: flex;
+		flex-direction: row;
+		}
+	
+	#menu_toggle 
+		{
+		display: none;
+		}
+
+	#menu_toggle:checked ~ .menu_btn > span 
+		{
+		transform: rotate(45deg);
+		}
+	#menu_toggle:checked ~ .menu_btn > span::before 
+		{
+		top: 0;
+		transform: rotate(0);
+		}
+	#menu_toggle:checked ~ .menu_btn > span::after 
+		{
+		top: 0;
+		transform: rotate(90deg);
+		}
+	#menu_toggle:checked ~ .menu_box 
+		{
+		visibility: visible;
+		right: 0;
+		}
+
+	.hamburger_menu
+		{
+		position: relative;
+		width: 24px;
+		height: 24px;
+		margin-right: 20px;
+		margin-left: 20px;
+		}
+	.menu_btn 
+		{
+
+		
+		cursor: pointer;
+		z-index: 1001;
+		}
+
+	.menu_btn > span,
+	.menu_btn > span::before,
+	.menu_btn > span::after 
+		{
+		width: 24px;
+		height: 2px;
+		z-index: 1001;
+		display: block;
+		position: absolute;
+		bottom: 14px;
+		left: 0px;
+
+		background-color: #616161;
+
+		transition-duration: 1s;
+		}
+	.menu_btn > span::before 
+		{
+		content: '';
+		top: -8px;
+		}
+	.menu_btn > span::after 
+		{
+		content: '';
+		top: 8px;
+		}
+
+	.menu_box 
+		{
+		z-index: 1000;
+		display: block;
+		position: fixed;
+		visibility: hidden;
+		top: 0;
+		right: -100%;
+
+		width: 414px;
+		height: 100%;
+
+		margin: 0;
+		padding: 120px 80px;
+
+		list-style: none;
+
+		background-color: #ECEFF1;
+		box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+		transition-duration: 1s;
+		}
+
+	.menu_item 
+		{
+		display: block;
+		padding: 5px;
+		margin: 10px;
+
+		color: #333;
+
+		font-family: PF DinDisplay Pro;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+		font-weight: 600;
+
+		text-decoration: none;
+
+		transition-duration: .25s;
+		}
+	.menu_item:hover 
+		{
+		background-color: #CFD8DC;
+		}
+	}
